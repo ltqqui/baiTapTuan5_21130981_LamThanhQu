@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/themify-icons-font/themify-icons/themify-icons.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0 auto;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .wrapper{
+            width: 700px;
+            box-shadow: -2px -5px 2px 2px #000;
+        }
+        .wrapper .menu{
+            width: 100%;
+            background-color: #222222;
+            color: white;
+            position: relative;
+            height: 100px;
+        }
+        .wrapper .menu h1{
+            line-height: 100px;
+            margin-left: 30px;
+        }
+        .wrapper .menu .nav ul {
+            display: flex;
+        }
+        .wrapper .menu .nav li{
+            width: 100px;
+            height: 40px;
+            background-color: #333333;
+            list-style: none;
+            text-align: center;
+        }
+        .wrapper .menu .nav li a{
+            text-decoration: none;
+            color: #fff;
+            line-height: 40px;
+            display: block;
+        }
+        .wrapper .menu .nav li:hover{
+            background-color: #e08627;
+        }
+        .wrapper .menu .nav .search{
+            background-color:#000000;
+            /* text-align: center; */
+            height: 40px;
+            padding: 5px;
+
+        }
+        .wrapper .content {
+            margin-top: 90px;
+            padding: 10px;
+            background-color:#ededed ;
+        }
+        .wrapper .content .content1{
+            background-color: white;
+            margin-top: 10px;
+            padding: 5px;
+        }
+        .wrapper .content .date{
+            letter-spacing: 5px;
+            color: #dbd8d8;
+
+        }
+        .wrapper .content p{
+            margin-bottom: 20px;
+        }
+        .realCss{
+            background-color: #e08627   ;
+            height: 50px;
+            
+
+        }
+        .realCss2{
+            background-color: #000   ;
+            height: 50px;
+            
+
+        }
+        .realCss h3{
+            line-height: 50px;
+            color: #fff ;
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <h1>CSS-TRICKS</h1>
+            <img style="position: absolute;top: 15px; right: 10px;" src="../img/Screenshot 2023-03-15 215448.png" alt="">
+            <div class="nav">
+                <ul>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Videos</a></li>
+                    <li><a href="">Almanac</a></li>
+                    <li><a href="">Snippets</a></li>
+                    <li><a href="">Forums</a></li>
+                    <li><a href="">jobs</a></li>
+                    <li><a href="">Lodge</a></li>
+                </ul>
+                <div class="search">
+                    <i style="font-size: 30px;line-height: 40px;padding: 3px;" class="ti-search"></i>
+                    <input style="width: 90%; height: 20px;" type="text">
+                </div>
+
+            </div>
+        </div>
+        <body>
+            <div class="content">
+                <div class="content1">
+                    <p class="date">  <img src="../img/Screenshot 2023-03-15 221052.png" alt="" srcset=""> CHIS COVIER // JULY 29,2015</p>
+                    <h3><i style="5px" class="ti-arrow-right"></i> Motion along path in CSS <i style="color: #e0e0e0;" class="ti-link"></i></h3>
+                    <p>From the "I barely knew this was a thing and you can already play with it in browsers" files:</p>
+                   <div style="border-left: 5px solid pink; padding-left: 10px;margin-top: 20px;" class="path">
+                    <p>Motion paths allow authors to animate any graphical object along an author-specified path.</p>
+                   </div> 
+                   <p>
+                    I suspect Chrome jumped on this because it's something that was only otherwise doable in SMIL, which they are ditching. I believe this is the first time the full path syntax has made it into CSS?(e.g <label style="background-color:#eeeeee ;" for="">motion-path: path('M100,250 C 100, 50 400,50 400,250'); )</label> )
+                   </p>
+                   <p>These are some <a href="">demos on CodePen.</a></p>
+                </div>
+                <div class="content1">
+                    <p class="date">  <img src="../img/Screenshot 2023-03-15 221052.png" alt="" srcset=""> CHIS COVIER // JULY 29,2015</p>
+                    <h3><i style="5px" class="ti-arrow-right"></i> On The Verge <i style="color: #e0e0e0;" class="ti-link"></i></h3>
+                    <p>A fun bit of #hotdrama around mobile web performance</p>
+                    <p>Apparantly it's possible to be of the opinion that slow, sucky websites are the fault of browsers and not the fact that the websites are jam packed with garbage assets.</p>
+                </div>
+                <div class="content1">
+                    <p class="date">  <img src="../img/Screenshot 2023-03-15 221052.png" alt="" srcset=""> CHIS COVIER // JULY 29,2015</p>
+                    <h3><i style="5px" class="ti-arrow-right"></i> Position an element relatively to another element <i style="color: #e0e0e0;" class="ti-link"></i></h3>
+                    <p>Not possible currently in CSS, but there is a discussion happening around syntax like:</p>
+                    <div class="realCss">
+                        <h3>Not-yet-real CSS</h3>
+                    </div>
+                    <div class="realCss2">
+                        <h3>Not-yet-real CSS</h3>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </div>
+</body>
+</html>

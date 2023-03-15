@@ -1,0 +1,138 @@
+.container{
+    height: 1000px;
+    background-color: rgb(148, 185, 14);
+    width: 1000px;
+    box-shadow: -3px 8px 25px 16px rgba(0,0,0,0.55);
+    margin-left: 300px;
+}
+header{
+    display: flex;
+}
+
+.logo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 30%;
+    color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+    margin-top: -40px;
+}
+.logo p{
+    font-size: 40px;
+    margin-top: -20px;
+}
+.nav{
+    width: 70%;
+    background: #0a7880;
+    padding-left: 60px;
+    border: 5px solid #fff;
+}
+.menu{
+    background-color: #511313;;
+}
+.menu-top{
+    width: 80%;
+    height: 100px;
+    background: #511313;
+}
+.menu-bottom{
+    width: 100%;
+    height: 60px;
+    background-color: #94b90e;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    padding: 5px;
+    background-color: green;
+    font-size: 20px;
+    font-weight: 600;
+    color:#fff;
+}
+
+.content .row{
+    display: flex;
+}
+.col-l {
+width: 30%;
+}
+.col-r{
+    width: 30%;
+}
+.col-l h2{
+    color: #0a7880;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a{
+    color: #fff;
+    display: block;
+    margin: 15px 25px;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+i{
+    margin-right: 5px;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+.render{
+    margin-top: 10px;
+    display: flex;
+    margin-right: 10px;
+}
+.hi{
+    background-color: gray;
+}
+.hihi{
+    background-color: green;
+}
+.render p{
+    padding: 3px;
+    border: 3px solid rgb(63, 95, 14);
+}
+.col-l .enter{
+    color: #fff;
+    padding: 20px; 
+}
+.col-l input{
+    margin-top: -10px;
+    height: 20px;
+    width: 120px;
+}
+button{
+    background-color:#94b90e ;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.col-r h2{
+    color: #0a7880;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.col-r .he{
+    color:#19a771 ;
+}
+.col-r{
+    width: 70%;
+    background-color: #fff;
+    position: relative;
+}
+iframe{
+    width: 300px;
+    height: 300px;
+   padding-left: 400px;
+}
+.pos{
+    position: absolute;
+    padding-right:  320px;
+    top: 200px;
+    left: 0px;
+    margin-left: 0px;
+}
+

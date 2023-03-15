@@ -1,0 +1,37 @@
+
+
+body{
+    width: 750px;
+    box-shadow: -3px 8px 25px 16px rgba(0,0,0,0.55);
+}
+.container{
+    display: flex;
+    box-shadow:-3px 8px 25px 16px rgba(0,0,0,0,55);
+    
+}
+
+h1{
+    width: 100%;
+    color: #fff;
+    margin: 0;
+    padding: 10 0px;
+    background-color: #666;
+    height: 60px;
+}
+.content-l{
+    width: 20%;
+    background-color: #908c8c;
+}
+.content-r{
+    margin-left: 30px;
+    width: 80%;
+}
+.floatLeft{
+    width: 100px;
+}
+.nav::before{
+    content: "Navigation";
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+}
